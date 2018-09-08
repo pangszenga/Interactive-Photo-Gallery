@@ -1,6 +1,15 @@
 * {
   font-family: 'Julius Sans One', sans-serif;
+  background: white;
 }
+
+.photo {
+  display: flex;
+  flex-direction: column;
+}
+
+/* format how photos are displayed */
+
 
 @media screen and only(min-width:768px) {
 
@@ -8,5 +17,5 @@
 }
 
 @media screen and only(min-width:1024px) {
-  
+
 }
